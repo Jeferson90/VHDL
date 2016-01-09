@@ -1,0 +1,49 @@
+##Definicao da localizacao da porta e da frequencia do sinal de relogio
+#NET "clk50_i" 		LOC = "T9"; #entrada cristal
+#NET "clk50_i" 		PERIOD = 50 MHz ; 
+#
+##Definicao da localizacao das portas para selecao do DISP7SEG
+#NET "dig_n_o<0>" 	LOC = "D14"; #AN0
+#NET "dig_n_o<1>" 	LOC = "G14"; #AN1
+#NET "dig_n_o<2>" 	LOC = "F14"; #AN2
+#NET "dig_n_o<3>" 	LOC = "E13"; #AN3
+#
+##Definicao da localizacao das portas dos segmentos do DISP7SEG
+#NET "seg_n_o<0>" 	LOC = "E14"; # seg A
+#NET "seg_n_o<1>" 	LOC = "G13"; # seg B
+#NET "seg_n_o<2>" 	LOC = "N15"; # seg C
+#NET "seg_n_o<3>" 	LOC = "P15"; # seg D
+#NET "seg_n_o<4>" 	LOC = "R16"; # seg E
+#NET "seg_n_o<5>" 	LOC = "F13"; # seg F
+#NET "seg_n_o<6>" 	LOC = "N16"; # seg G
+#NET "seg_n_o<7>" 	LOC = "P16"; # point
+#
+##Definicao da localizacao das portas dos Push Buttons
+#NET "pb_i<0>" 		LOC = "M13"; #BTN0
+#NET "pb_i<1>" 		LOC = "M14"; #BTN1
+#NET "pb_i<2>" 		LOC = "L13"; #BTN2
+#NET "pb_i<3>" 		LOC = "L14"; #BTN3
+#
+##Definicao da localizacao das portas das chaves
+#NET "sw_i<0>" 		LOC = "F12"; #SW0
+#NET "sw_i<1>" 		LOC = "G12"; #SW1
+#NET "sw_i<2>" 		LOC = "H14"; #SW2
+#NET "sw_i<3>" 		LOC = "H13"; #SW3
+#NET "sw_i<4>" 		LOC = "J14"; #SW4
+#NET "sw_i<5>" 		LOC = "J13"; #SW5
+#NET "sw_i<6>" 		LOC = "K14"; #SW6
+#NET "sw_i<7>" 		LOC = "K13"; #SW7
+#
+##Definicao da localizacao das portas dos LEDs
+#NET "led_o<0>" 	LOC = "K12"; #LD0
+#NET "led_o<1>" 	LOC = "P14"; #LD1
+#NET "led_o<2>" 	LOC = "L12"; #LD2
+#NET "led_o<3>" 	LOC = "N14"; #LD3
+#NET "led_o<4>" 	LOC = "P13"; #LD4
+#NET "led_o<5>" 	LOC = "N12"; #LD5
+#NET "led_o<6>" 	LOC = "P12"; #LD6
+#NET "led_o<7>" 	LOC = "P11"; #LD7
+#
+##Definicao da localizacao das portas dos LEDs
+#NET "rs232rx_i"	LOC = "T13"; #J2-RXD
+#NET "rs232tx_o"	LOC = "R13"; #J2-TXDs
